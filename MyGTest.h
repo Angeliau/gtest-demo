@@ -4,6 +4,7 @@
 #include <gtest/gtest.h>
 #include "MyTest.h"
 
+
 using namespace testing;
 using namespace std;
 
@@ -13,6 +14,7 @@ public:
     //重写SetUp和TearDown或者SetUpTestCase和TearDownTestCase都可以
 //    virtual void SetUp();
 //    virtual void TearDown();
+
     static void SetUpTestCase();
     static void TearDownTestCase();
 

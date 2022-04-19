@@ -12,3 +12,14 @@ sudo dnf install gtest gtest-devel
 ## 3.检查是否安装成功
 find /usr -name gtest.h
 显示/usr/include/gtest/gtest.h即为安装成功.
+
+# Examples
+## 1.test public method
+MyTest and MyGTest class show how to test public methods.
+## 2.test private method
+### 2.1 use macro definition
+PrivateTest and PrivateMemberTest class show how to use macro definition to test private methods.   
+### 2.2 use FRIEND_TEST
+FriendTest and FriendMemberTest show how to use FRIEND_TEST to test private methods.    
+### 2.3 use PIMPL
+MyClass and MyClassTest show how to use PIMPL to test private methods. 

@@ -1,7 +1,7 @@
 #ifndef PRIVATETEST_H
 #define PRIVATETEST_H
-#define private public
-#define protected public
+//#define private public
+//#define protected public
 
 
 class PrivateTest

@@ -13,7 +13,7 @@ void PrivateMemberTest::TearDownTestCase(){
     }
 }
 
-TEST_F(PrivateMemberTest, add){
-    auto Ret = privateTest->add(5,5);
-    EXPECT_EQ(10, Ret);
-}
+//TEST_F(PrivateMemberTest, add){
+//    auto Ret = privateTest->add(5,5);
+//    EXPECT_EQ(10, Ret);
+//}

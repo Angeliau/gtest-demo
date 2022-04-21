@@ -23,3 +23,5 @@ PrivateTest and PrivateMemberTest class show how to use macro definition to test
 FriendTest and FriendMemberTest show how to use FRIEND_TEST to test private methods.    
 ### 2.3 use PIMPL
 MyClass and MyClassTest show how to use PIMPL to test private methods. 
+## 3.mock test
+MockTest and MockFooImpl show how to mock a virtual function.

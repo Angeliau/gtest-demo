@@ -17,7 +17,8 @@ SOURCES += main.cpp \
     MyClass.cpp \
     MyClassTest.cpp \
     MockFooImpl.cpp \
-    MockTest.cpp
+    MockTest.cpp \
+    FileImpl.cpp
 
 HEADERS += \
     MyGTest.h \
@@ -31,4 +32,8 @@ HEADERS += \
     Foo.h \
     MockFoo.h \
     MockFooImpl.h \
-    MockTest.h
+    MockTest.h \
+    FileApi.h \
+    FileImpl.h \
+    MockFileApi.h \
+    MyTemplateClass.h

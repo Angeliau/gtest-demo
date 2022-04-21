@@ -3,8 +3,6 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-#LIBS += /usr/lib64/libgtest.so
-
 LIBS+=/usr/local/lib64/libgtest.a
 LIBS+=/usr/local/lib64/libgmock.a
 LIBS+=-lpthread

@@ -1,7 +1,6 @@
 #ifndef PRIVATETEST_H
 #define PRIVATETEST_H
-//#define private public
-//#define protected public
+#define my_private private
 
 
 class PrivateTest
@@ -9,7 +8,9 @@ class PrivateTest
 public:
     PrivateTest();
 
-private:
+#undef my_private
+#define my_private public
+my_private:
     int add(int a, int b);
 };
 

@@ -1,5 +1,3 @@
-#undef private
-#undef protected
 #include <iostream>
 #include <gtest/gtest.h>
 #include "MyGTest.h"
@@ -29,9 +27,9 @@ int add(int a, int b) {
 
 }
 
-//TEST(abs_test, abs) {
-//    ASSERT_TRUE(abs(1) != 1);
-//}
+TEST(abs_test, abs) {
+    ASSERT_TRUE(my_main::abs(-1) == 1);
+}
 
 TEST(GlobalTest, absTest) {
     ASSERT_EQ(my_main::abs(1), my_main::abs(-1));
